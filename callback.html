@@ -1,0 +1,6 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>Fanout</title>
+<p style="font:17px system-ui;margin:3em">Finishing sign-in…</p>
+<!-- Platforms that require https send you here; this hands the sign-in code to Fanout running on your PC. -->
+<script>location.replace('http://127.0.0.1:8765/oauth/cb' + location.search);</script>
