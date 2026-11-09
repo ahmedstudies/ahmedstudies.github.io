@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Fanout privacy policy</title>
+<style>
+  body { margin: 0; background: #EEF1EC; color: #13241C; font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { background: #083826; color: #F2F4EE; padding: 18px 24px; font-weight: 700; font-size: 19px; border-bottom: 3px solid #D4A93C; }
+  main { max-width: 68ch; margin: 0 auto; padding: 40px 24px 80px; }
+  h1 { font-size: 30px; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 19px; margin: 36px 0 8px; }
+  p, li { color: #2A3A31; }
+  .date { color: #4F5E55; margin: 0 0 28px; }
+  a { color: #0D4F35; text-decoration-color: #D4A93C; text-decoration-thickness: 2px; text-underline-offset: 3px; }
+  :focus-visible { outline: 2.5px solid #0D4F35; outline-offset: 2px; }
+</style>
+</head>
+<body>
+<header>Fanout</header>
+<main>
+  <h1>Privacy policy</h1>
+  <p class="date">Last updated: November 9, 2026</p>
+
+  <p>Fanout is a personal publishing tool. Its owner, the person behind the Instagram account electronics.in.pixels, uses it to post their own videos and photos to their own Instagram, Facebook, Threads, YouTube and TikTok accounts. It is not offered to the public, and it doesn't collect information about anyone else.</p>
+
+  <h2>What Fanout accesses</h2>
+  <p>When the owner connects an account, the platform grants Fanout permission to:</p>
+  <ul>
+    <li>read basic profile details: account ID, username or display name, and, for Facebook, the names of the Pages the owner manages;</li>
+    <li>publish posts, videos, reels, shorts and stories that the owner creates in Fanout.</li>
+  </ul>
+  <p>Fanout doesn't read your messages, followers, contacts, comments or analytics, and it doesn't access accounts belonging to other people.</p>
+
+  <h2>What Fanout stores and where</h2>
+  <ul>
+    <li><strong>Sign-in tokens</strong> issued by each platform, so posts can be published at the scheduled time. These are kept in a private, access-controlled cloud storage bucket (Cloudflare R2) that only the owner controls.</li>
+    <li><strong>Files waiting to be posted.</strong> Each video or photo is stored in the same private bucket and deleted automatically once it has been published to every selected platform.</li>
+    <li><strong>Post records</strong>: the caption, chosen platforms, scheduled time, and each platform's result (link or error message), so the owner can check what was posted.</li>
+  </ul>
+  <p>Scheduled posts are sent by an automated job running on GitHub Actions, which reads from the private bucket at the time of posting. Fanout uses no cookies, analytics, tracking or advertising.</p>
+
+  <h2>Sharing</h2>
+  <p>Content is sent only to the platforms the owner selects for each post, through their official APIs. Fanout doesn't sell, rent or share data with anyone else.</p>
+
+  <h2 id="delete-data">How to delete your data</h2>
+  <p>To remove Fanout's access and delete its data:</p>
+  <ol>
+    <li>Revoke access on each platform:
+      <ul>
+        <li>Facebook and Instagram: Facebook Settings → Apps and websites → remove the app.</li>
+        <li>Threads: Threads Settings → Account → Website permissions → remove the app.</li>
+        <li>YouTube: myaccount.google.com → Security → Third-party connections → remove access.</li>
+        <li>TikTok: TikTok Settings → Security and permissions → Apps and services permissions → remove the app.</li>
+      </ul>
+    </li>
+    <li>Ask the owner to delete stored tokens and post records using the contact address below. They are deleted within 30 days of the request.</li>
+  </ol>
+  <p>Revoking access makes any stored token useless right away, even before it is deleted.</p>
+
+  <h2>Children</h2>
+  <p>Fanout isn't intended for and doesn't knowingly collect information from anyone under 13.</p>
+
+  <h2>Changes</h2>
+  <p>If this policy changes, the updated version will be posted on this page with a new date.</p>
+
+  <h2>Contact</h2>
+  <p>Questions or deletion requests: <a href="mailto:YOUR-EMAIL@example.com">YOUR-EMAIL@example.com</a></p>
+</main>
+</body>
+</html>
